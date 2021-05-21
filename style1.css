@@ -1,0 +1,58 @@
+html {
+    background: #d9dede;
+}
+  @font-face {
+                font-family: 'DIN-Regular'; 
+                src: url('/fonts/DINPro-Regular.otf') format('opentype');
+            }
+            @font-face {
+                font-family: 'DIN-Regular'; 
+                src: url('/fonts/DINPro-Bold.otf') format('opentype');
+                font-weight: bold; 
+            }
+            * { font-family: 'DIN-Regular', 'PingFang SC', Helvetica, Arial, sans-serif; outline:none; margin:0; padding:0; }
+            body { background:#d9dede; }
+            .hide-in-web { display:none; }
+            @media  screen and (max-device-width: 800px) {
+                .hide-in-web { display:block; }
+                .hide-in-mobile { display:none; }
+            }
+            .green { color:#30CF79; }
+
+            .block { margin:120px auto; max-width:90%; text-align:center; }
+            .block img.xxx { width:64px; height:64px; }
+            .block h3 { font-weight:bold; font-size:36px; color:#474040; }
+            .block h4 { font-weight:normal; font-size:20px; color:#9c9595; }
+            .block div { margin:10px auto; }
+            .block .desc { font-weight:bold; font-size:16px; line-height:1.5; text-align:center; color:#454545; max-width:1000px; }
+            .block a.btn:hover { background:#2bba6d; }
+            .block a.link { text-decoration:underline; color:#454545; }
+            .block a.link:hover { text-decoration:none; }
+
+            .footer { margin-bottom:60px; }
+            .footer .block { margin:10px auto; }
+            .footer .block a.link { margin-left:6px; }
+            @media  screen and (max-device-width: 800px) {
+                .footer .block a.link { display:block; margin-left:0; line-height:1.8; }
+            }
+body {
+    background: #d9dede;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1{
+    color: #222;
+    font-weight: 600;
+    line-height: 2;
+    font-size: 40px;
+    text-align: center;
+}
+
+

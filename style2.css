@@ -1,0 +1,92 @@
+html {
+    background: #d9dede;
+}
+
+body {
+    background: #d9dede;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #474040;
+    font-family:'DIN-Regular', 'PingFang SC', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1{
+    color: #222;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    line-height: 2;
+}
+
+h2{
+    color: #474040;
+    font-weight: 400;
+    font-size: 36px;
+    text-align:center;
+    line-height: 1.7;
+}
+
+h3{
+    color: #9c9595;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    max-width:1000px;
+    font-family: 'FangSong_GB2312';
+    
+}
+
+h4{
+    color: #30CF79;
+    font-weight:normal;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    max-width:1000px
+
+}
+
+h5{
+    color: #30CF79;
+    font-weight:bold;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    max-width:1000px
+
+}
+
+img {
+    background: transparent;
+    margin-left: auto; 
+    margin-right:auto; 
+    display:block;
+    max-width: 100%;
+}
+
+.footer {
+    margin-bottom:60px;
+    margin:10px auto;
+    text-align:center;
+}
+
+
+.link {
+    margin-left:0; 
+    line-height:1.8;
+    text-decoration:underline; 
+    text-align:center;
+    color:#454545
+}
+
+   .link:hover {
+            text-decoration:none;
+            color:#454545;
+            text-align:center;
+   }
